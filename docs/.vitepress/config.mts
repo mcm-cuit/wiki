@@ -32,6 +32,11 @@ export default defineConfig({
 
     socialLinks: [
       {icon: 'github', link: 'https://github.com/mcm-cuit/wiki/'}
-    ]
+    ],
+
+    outline: {
+      level: 'deep',
+      label: '本页目录'
+    },
   }
 })
