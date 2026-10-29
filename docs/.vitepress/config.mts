@@ -4,6 +4,9 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
   title: "MCM-CUIT Wiki",
   description: "成都信息工程大学 学生数学建模协会 Wiki",
+  markdown: {
+    math: true
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -19,6 +22,7 @@ export default defineConfig({
         items: [
           {text: '数学建模', link: '/开始/数学建模'},
           {text: '学生数学建模协会', link: '/todo'},
+          {text: '从数学题到数学建模', link: '/开始/从数学题到数学建模'},
         ]
       },
       {
